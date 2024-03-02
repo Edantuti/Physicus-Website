@@ -10,7 +10,8 @@ export default ()=>{
 			<TeamCard name="Your Name" designation={"Your Designation"}/>
 			<TeamCard name="Your Name" designation={"Your Designation"}/>
 			<TeamCard name="Your Name" designation={"Your Designation"}/>
-			<TeamCard name="Your Name" designation={"Your Designation"}/></div>
+			<TeamCard name="Your Name" designation={"Your Designation"}/>
+			</div>
 		</section>
 
 	</>)
