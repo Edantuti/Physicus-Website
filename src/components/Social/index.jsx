@@ -10,7 +10,7 @@ export default ()=>{
 			initial={{opacity:.5, y:100}} 
 			whileInView={{opacity:1, y:0, transition:{delay:0.22}}}
 			viewport={{once:true}}
-			className="text-white relative font-inter antialiased font-medium overflow-hidden md:h-[1080px] h-[400px] mx-auto">
+			className="text-white relative font-inter antialiased font-medium overflow-hidden lg:h-[1080px] md:h-[600px] h-[350px] mx-auto">
 			<div className="mx-auto flex md:gap-5 gap-2 -translate-y-20 w-fit">
 				<div className="md:space-y-5 space-y-2 translate-y-20">
 					<SocialImage />
@@ -44,7 +44,7 @@ export default ()=>{
 
 const SocialImage = ()=>{
 	return (
-		<div className="md:h-96 md:w-72 h-32 w-28 bg-white rounded"></div>
+		<div className="xl:h-96 xl:w-72 lg:h-96 lg:w-60 md:h-48 md:w-36 h-32 w-28 bg-white rounded"></div>
 	)
 }
 

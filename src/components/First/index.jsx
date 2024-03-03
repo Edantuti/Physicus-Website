@@ -43,7 +43,7 @@ export default () =>{
         <img src="" alt="LOGO" className="bg-white w-12 h-12"/>
         <h1 className="md:text-2xl text-lg text-white font-semibold"><HackerTextTag>Phyicus Club</HackerTextTag></h1>
       </header>
-      <section className="text-white flex font-inter md:pb-80 md:pt-60 min-h-screen items-center justify-center">
+      <section className="text-white flex font-inter md:pb-80 md:pt-60 min-h-[30rem] items-center justify-center">
         <div className="w-fit mx-auto md:px-10">
           <motion.div variants={container} initial="hidden" animate="visible" className="flex items-start gap-5 w-fit">
 						<HeroImage image_url={P}/>
@@ -57,7 +57,7 @@ export default () =>{
           </motion.div>
           <motion.div variants={para} initial="hidden" animate="visible" className="font-bold flex justify-between">
             <p className="mx-3">Catchy line</p>
-            <p className="uppercase text-2xl">Club</p>
+            <p className="uppercase md:text-2xl text-lg">Club</p>
           </motion.div>
         </div>
         <div>
@@ -71,7 +71,7 @@ export default () =>{
 const HeroImage = ({image_url})=>{
   return (
 		<motion.img 
-			className="md:w-52 md:h-52 h-5 w-5"
+			className="xl:w-40 xl:h-40 lg:w-28 lg:h-28 md:w-20 md:h-20 h-6 w-6"
 			whileHover={{y: -10, transition:{duration:0.2}}} 
 			drag 
 			dragElastic={1} 

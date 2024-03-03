@@ -11,7 +11,7 @@ export default ()=>{
 			className="mb-40 mt-20 py-20 text-white antialiased font-inter">
 
 			<h2 className="text-4xl text-center font-medium"><HackerHTag>Past Events</HackerHTag></h2>
-			<div className="bg-white md:h-96 h-56 lg:w-[800px] md:w-[500px] w-80 rounded mx-auto my-10 relative overflow-hidden">
+			<div className="bg-white md:h-96 h-56 lg:w-[800px] md:w-[600px] w-80 rounded mx-auto my-10 relative overflow-hidden">
 				<div className={` text-black absolute grid grid-cols-2 grid-rows-2 p-5 w-full h-full bg-gray-200 backdrop-blur transition-opacity hover:opacity-100 opacity-0`}>
 					<h3 className="md:text-3xl text-xl font-semibold">JamShack</h3>
 					<div className="text-right">
