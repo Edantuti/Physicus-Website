@@ -1,5 +1,5 @@
 import { motion } from "framer-motion"
-import { HackerHTag } from "../HackerHTag"
+import { HackerHTag } from "../HackerTag"
 
 export default ()=>{
 		
