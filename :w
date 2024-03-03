@@ -5,8 +5,7 @@ import S from "../../assets/S.svg"
 import I from "../../assets/I.svg"
 import C from "../../assets/C.svg"
 import U from "../../assets/U.svg"
-import {motion} from "framer-motion"
-import { HackerTextTag } from "../HackerTag"
+import { motion} from "framer-motion"
 const container = {
   hidden: { opacity: 0 },
   visible: {
@@ -39,11 +38,11 @@ const para = {
 export default () =>{
   return (
     <>
-      <header className="py-5 md:px-10 px-2 flex items-baseline md:gap-5 gap-2 font-inter">
-        <img src="" alt="LOGO" className="bg-white w-12 h-12"/>
-        <h1 className="md:text-2xl text-lg text-white font-semibold"><HackerTextTag>Phyicus Club</HackerTextTag></h1>
+      <header className="bg-background py-5 px-10 flex items-baseline gap-5 font-inter">
+        <img src="" alt="LOGO" className="bg-white" width={50} height={50} />
+        <h1 className="text-2xl text-white">Physicus Club</h1>
       </header>
-      <section className="text-white flex font-inter md:pb-80 md:pt-60 min-h-screen items-center justify-center">
+      <section className="text-white flex font-inter md:pb-80 md:pt-60 pt-40 pb-40 min-h-screen items-center justify-center">
         <div className="w-fit mx-auto md:px-10">
           <motion.div variants={container} initial="hidden" animate="visible" className="flex items-start gap-5 w-fit">
 						<HeroImage image_url={P}/>
@@ -71,7 +70,7 @@ export default () =>{
 const HeroImage = ({image_url})=>{
   return (
 		<motion.img 
-			className="md:w-52 md:h-52 h-5 w-5"
+			className="md:w-52 md:h-52 h-8 w-8"
 			whileHover={{y: -10, transition:{duration:0.2}}} 
 			drag 
 			dragElastic={1} 
@@ -81,5 +80,3 @@ const HeroImage = ({image_url})=>{
 			src={image_url}/>)
 
 }
-
-
