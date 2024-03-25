@@ -1,16 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html","./src/**/*.{js,jsx,tsx,ts}"],
+  content: ['./index.html', './src/**/*.{js,jsx,tsx,ts}'],
   theme: {
     extend: {
-      backgroundColor:{
-        background:"#050505"
+      backgroundColor: {
+        background: '#050505',
       },
-      fontFamily:{
-        'inter':['"Inter"', 'sans-serif']
-      }
+      fontFamily: {
+        inter: ['"Inter"', 'sans-serif'],
+      },
     },
   },
   plugins: [],
-}
-
+};
