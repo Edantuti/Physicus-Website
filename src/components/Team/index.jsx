@@ -1,6 +1,8 @@
 import { HackerHTag } from '../HackerTag';
 import TeamCard from './TeamCard';
 import { motion } from 'framer-motion';
+import Pankaj from "../../assets/pankaj.jpg"
+import rikdas from "../../assets/rik das.jpg"
 export default () => {
   return (
     <>
@@ -14,8 +16,8 @@ export default () => {
           <HackerHTag> Team</HackerHTag>
         </h2>
         <div className='mx-auto w-fit grid-cols-2 gap-4 md:grid lg:grid-cols-3'>
-          <TeamCard name='Your Name' designation={'Your Designation'} />
-          <TeamCard name='Your Name' designation={'Your Designation'} />
+          <TeamCard name='Rik Das Gupta' designation={'President'} profile_url={rikdas} twitter={""} linkedin={"https://www.linkedin.com/in/rik-dasgupta-a66468276?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"} instagram={"https://www.instagram.com/rikthexav?igsh=MXZzd3M4eGpocjNpbQ=="} />
+          <TeamCard name='Pankaj Kumar Das' designation={'Vice-President'} profile_url={Pankaj} twitter={"https://x.com/Pkd019?t=7nX3tuR-1NJhSXRs5vEqPw&s=09"} linkedin={"https://www.linkedin.com/in/pkd019?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"} instagram={""}/>
           <TeamCard name='Your Name' designation={'Your Designation'} />
           <TeamCard name='Your Name' designation={'Your Designation'} />
           <TeamCard name='Your Name' designation={'Your Designation'} />

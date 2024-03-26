@@ -1,5 +1,5 @@
 import { FaXTwitter } from 'react-icons/fa6';
-import { FaFacebook } from 'react-icons/fa6';
+import { FaLinkedin } from "react-icons/fa6";
 import { IoLogoInstagram } from 'react-icons/io';
 import { HackerTextTag } from '../HackerTag';
 
@@ -8,7 +8,7 @@ export default ({
   designation,
   profile_url,
   twitter,
-  facebook,
+  linkedin,
   instagram,
 }) => {
   return (
@@ -17,10 +17,10 @@ export default ({
         <img
           src={profile_url}
           alt='profile'
-          className='duration-350 absolute z-10 h-full w-full bg-white transition-all group-hover:-translate-x-16 group-hover:translate-y-16 group-hover:scale-50'
+          className='duration-350 object-cover absolute z-10 h-full w-full bg-white transition-all group-hover:-translate-x-16 group-hover:translate-y-16 group-hover:scale-50'
         />
         <SocialIcon Icon={FaXTwitter} link={twitter} />
-        <SocialIcon Icon={FaFacebook} link={facebook} />
+        <SocialIcon Icon={FaLinkedin} link={linkedin} />
         <div className='h-32 w-32 '></div>
         <SocialIcon Icon={IoLogoInstagram} link={instagram} />
       </div>
